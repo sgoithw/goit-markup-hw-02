@@ -137,14 +137,14 @@ section > .title {}
 
 .filter.list > .item > button {}
 
-.projects.list {}
+#portfolio > .projects.list {}
 
-.projects.list > .item {}
+#portfolio > .projects.list > .item {}
 
-.projects.list > .item > .link {}
+#portfolio > .projects.list > .item > .link {}
 
-.projects.list > .item > .link > img {}
+#portfolio > .projects.list > .item > .link > img {}
 
-.projects.list > .item > .link > .title {}
+#portfolio > .projects.list > .item > .link > .title {}
 
-.projects.list > .item > .link > .text {}
+#portfolio > .projects.list > .item > .link > .text {}
