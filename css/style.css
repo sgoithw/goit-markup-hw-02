@@ -1,0 +1,150 @@
+::root{
+    --main-bg-color: #E5E5E5;
+}
+
+/** General **/
+
+body{
+    background-color: var(--main-bg-color);
+}
+
+.nav{
+
+}
+
+.list{
+
+}
+
+.item{
+
+}
+
+.link{
+
+}
+
+.title{
+
+}
+
+.text{
+
+}
+
+.logo{
+
+}
+
+.page {
+
+}
+
+section > .title {}
+
+/** Header **/
+
+.header{}
+
+.header .nav{}
+
+.header > .nav > .logo {}
+
+.header > .nav > .list {}
+
+.header > .nav > .list > .item{}
+
+.header > .nav > .list > .item > .link {}
+
+.header > .adress{}
+
+.header > .adress > .list {}
+
+.header > .adress > .list > .item {}
+
+.header > .adress > .list > .item > .link {}
+
+
+/** Footer **/
+
+.footer{}
+
+.footer > .logo {}
+
+.footer > .text {}
+
+
+/** Main page **/
+
+.main-page{}
+
+.main-page > section > .title{}
+
+#hero > .title{}
+
+#order-service{}
+
+#our-advantages {}
+
+#our-advantages > .title {}
+
+#our-advantages > .list {}
+
+#our-advantages > .list > .item {}
+
+#our-advantages > .list > .item > .title {}
+
+#our-advantages > .list > .item > .text {}
+
+#what-we-do{}
+
+#what-we-do > .title {}
+
+#what-we-do > .list {}
+
+#what-we-do > .list > .item {}
+
+#what-we-do > .list > .item > img{}
+
+#our-team{}
+
+#our-team > .title {}
+
+#our-team > .list {}
+
+#our-team > .list > .item {}
+
+#our-team > .list > .item > img {}
+
+#our-team > .list > .item > .title {}
+
+#our-team > .list > .item > .text {}
+
+
+/** Portfolio page **/
+
+.portfolio-page{}
+
+.portfolio-page > section > .title {}
+
+#portfolio {}
+
+#portfolio > .title {}
+
+.filter.list {}
+
+.filter.list > .item {}
+
+.filter.list > .item > button {}
+
+.projects.list {}
+
+.projects.list > .item {}
+
+.projects.list > .item > .link {}
+
+.projects.list > .item > .link > img {}
+
+.projects.list > .item > .link > .title {}
+
+.projects.list > .item > .link > .text {}
