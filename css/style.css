@@ -36,115 +36,114 @@ body{
 
 }
 
+.link {}
+
 .page {
 
 }
 
 section > .title {}
 
+/** Elements **/
+
+.btn {}
+
+.btn-accent {}
+
+.btn-secondary {}
+
 /** Header **/
 
 .header{}
 
-.header .nav{}
-
-.header > .nav > .logo {}
-
-.header > .nav > .list {}
-
-.header > .nav > .list > .item{}
-
-.header > .nav > .list > .item > .link {}
-
-.header > .adress{}
-
-.header > .adress > .list {}
-
-.header > .adress > .list > .item {}
-
-.header > .adress > .list > .item > .link {}
+.header-nav {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-list-link {
+}
+.header-adress {
+}
+.header-adress-list {
+}
+.header-adress-list-item {
+}
+.header-adress-list-link {
+}
 
 
 /** Footer **/
 
-.footer{}
+.footer {}
 
-.footer > .logo {}
+.footer-logo {}
 
-.footer > .text {}
+.footer-text {}
 
 
 /** Main page **/
 
-.main-page{}
+.main-page {}
 
-.main-page > section > .title{}
+.hero {}
 
-#hero > .title{}
+.hero-title {}
 
-#order-service{}
+.advantages {}
 
-#our-advantages {}
+.advantages-title {}
 
-#our-advantages > .title {}
+.advantages-list {}
 
-#our-advantages > .list {}
+.advantages-list-item {}
 
-#our-advantages > .list > .item {}
+.advantages-list-title {}
 
-#our-advantages > .list > .item > .title {}
+.advantages-list-text {}
 
-#our-advantages > .list > .item > .text {}
+.services {}
 
-#what-we-do{}
+.services-title {}
 
-#what-we-do > .title {}
+.services-list {}
 
-#what-we-do > .list {}
+.services-list-item {}
 
-#what-we-do > .list > .item {}
+.team {}
 
-#what-we-do > .list > .item > img{}
+.team-title {}
 
-#our-team{}
+.team-list {}
 
-#our-team > .title {}
+.team-list-item {}
 
-#our-team > .list {}
+.team-list-title {}
 
-#our-team > .list > .item {}
-
-#our-team > .list > .item > img {}
-
-#our-team > .list > .item > .title {}
-
-#our-team > .list > .item > .text {}
+.team-list-text {}
 
 
 /** Portfolio page **/
 
-.portfolio-page{}
+.portfolio-page {}
 
-.portfolio-page > section > .title {}
+.portfolio {}
 
-#portfolio {}
+.portfolio-title {}
 
-#portfolio > .title {}
+.portfolio-filter-list {}
 
-.filter.list {}
+.portfolio-filter-item {}
 
-.filter.list > .item {}
+.portfolio-projects-list {}
 
-.filter.list > .item > button {}
+.portfolio-projects-item {}
 
-#portfolio > .projects.list {}
+.portfolio-projects-item-link {}
 
-#portfolio > .projects.list > .item {}
+.portfolio-projects-item-title {}
 
-#portfolio > .projects.list > .item > .link {}
-
-#portfolio > .projects.list > .item > .link > img {}
-
-#portfolio > .projects.list > .item > .link > .title {}
-
-#portfolio > .projects.list > .item > .link > .text {}
+.portfolio-projects-item-text {}
