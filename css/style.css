@@ -1,11 +1,43 @@
-::root{
-    --main-bg-color: #E5E5E5;
+:root{
+    /** Fonts **/
+    --main-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+
+    /** Colors **/
+    --main-bg-color:#FFF;
+
+    --logo-accent-color: #4D5AE5;
+    --title-dark-color: #2E2F42;
+    --text-dark-color: #434455;
+    --text-light-color: #F4F4FD;
+
+    --button-accent-bg-color: #4D5AE5;
+    --button-secondary-bg-color: #F4F4FD;
+    --button-secondary-active-bg-color: #404BBF;
+
 }
 
 /** General **/
 
 body{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     background-color: var(--main-bg-color);
+    color: var(--text-dark-color);
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+button{
+    color: currentColor;
+    cursor: pointer;
 }
 
 .nav{
@@ -25,18 +57,19 @@ body{
 }
 
 .title{
-
+  color: var(--title-dark-color);
 }
 
 .text{
-
-}
+  
+} 
 
 .logo{
-
 }
 
-.link {}
+.logo-accent{
+    color: var(--logo-accent-color);
+}
 
 .page {
 
@@ -48,9 +81,17 @@ section > .title {}
 
 .btn {}
 
-.btn-accent {}
+.btn-accent {
+    background-color: var(--button-accent-bg-color);
+}
 
 .btn-secondary {}
+
+.btn-secondary:hover,
+.btn-secondary:focus
+{
+  background-color: var(--button-secondary-active-bg-color);
+}
 
 /** Header **/
 
@@ -82,7 +123,9 @@ section > .title {}
 
 .footer-logo {}
 
-.footer-text {}
+.footer-text {
+    color: var(--text-light-color);
+}
 
 
 /** Main page **/
