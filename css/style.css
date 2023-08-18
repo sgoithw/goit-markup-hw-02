@@ -106,7 +106,6 @@ button{
 /** Elements **/
 
 .btn {
-    border-radius: 4px;
     border-color: transparent;
     color: var(--text-light-color);
     letter-spacing: 0.04em;
@@ -115,8 +114,6 @@ button{
 
 .btn-accent {
     background-color: var(--button-accent-bg-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    padding: 16px 32px;
     line-height: 1.5;
     font-family: var(--main-font);
     font-weight: 500;
@@ -129,10 +126,11 @@ button{
 }
 
 .btn-secondary {
+    font-family: var(--main-font);
+    line-height: 1.5;
     color: var(--text-light-accent-color);
     font-weight: 500;
     letter-spacing: 0.04em;
-    padding: 12px 24px;
     background: var(--button-secondary-bg-color);
     border: 1px solid #E7E9FC;
 }
@@ -143,7 +141,6 @@ button{
     color: var(--text-light-color);
     border-color: transparent;
     background-color: var(--button-secondary-active-bg-color);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 /** Header **/
@@ -227,7 +224,9 @@ button{
 
 .services {}
 
-.services-title {}
+.services-title {
+    letter-spacing: 0.02em
+}
 
 .services-list {}
 
@@ -272,6 +271,8 @@ button{
 
 .portfolio-projects-item-link {}
 
-.portfolio-projects-item-title {}
+.portfolio-projects-item-title {
+    letter-spacing: 0.02em
+}
 
 .portfolio-projects-item-text {}
