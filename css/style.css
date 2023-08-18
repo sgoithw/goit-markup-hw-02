@@ -212,6 +212,7 @@ button{
 .advantages {}
 
 .advantages-title {
+    letter-spacing: 0.02em
 }
 
 .advantages-list {}
