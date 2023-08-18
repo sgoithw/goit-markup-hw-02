@@ -219,7 +219,9 @@ button{
 
 .advantages-list-item {}
 
-.advantages-list-title {}
+.advantages-list-title {
+    letter-spacing: 0.02em
+}
 
 .advantages-list-text {}
 
