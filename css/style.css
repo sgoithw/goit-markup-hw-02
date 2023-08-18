@@ -9,7 +9,10 @@
     --logo-accent-color: #4D5AE5;
     --title-dark-color: #2E2F42;
     --text-dark-color: #434455;
-    --text-light-color: #F4F4FD;
+    --text-light-color: #FFF;
+    --text-light-accent-color: #4D5AE5;
+    --text-active-color: #404BBF;
+    --text-secondary-light-color: #F4F4FD;
 
     --button-accent-bg-color: #4D5AE5;
     --button-secondary-bg-color: #F4F4FD;
@@ -20,7 +23,7 @@
 /** General **/
 
 body{
-    font-family: Roboto;
+    font-family: var(--main-font);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -35,6 +38,10 @@ a{
     color: currentColor;
 }
 
+address{
+    font-style: inherit;
+}
+
 button{
     color: currentColor;
     cursor: pointer;
@@ -45,7 +52,7 @@ button{
 }
 
 .list{
-
+    list-style: none;
 }
 
 .item{
@@ -57,14 +64,31 @@ button{
 }
 
 .title{
-  color: var(--title-dark-color);
+    color: var(--title-dark-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.section-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-transform: capitalize;
 }
 
 .text{
-  
+
 } 
 
 .logo{
+    color: var(--title-dark-color);
+    font-family: var(--logo-font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo-accent{
@@ -79,18 +103,44 @@ section > .title {}
 
 /** Elements **/
 
-.btn {}
+.btn {
+    border-radius: 4px;
+    border-color: transparent;
+    color: var(--text-light-color);
+    letter-spacing: 0.04em;
+    font-size: inherit;
+    transition: .3s;
+    transition-property: background-color, box-shadow;
+}
 
 .btn-accent {
     background-color: var(--button-accent-bg-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
 }
 
-.btn-secondary {}
+.btn-accent:hover,
+.btn-accent:focus
+{
+    background-color: var(--button-secondary-active-bg-color);
+}
+
+.btn-secondary {
+    color: var(--text-light-accent-color);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    padding: 12px 24px;
+    background: var(--button-secondary-bg-color);
+    border: 1px solid #E7E9FC;
+}
 
 .btn-secondary:hover,
 .btn-secondary:focus
 {
-  background-color: var(--button-secondary-active-bg-color);
+    color: var(--text-light-color);
+    border-color: transparent;
+    background-color: var(--button-secondary-active-bg-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 /** Header **/
@@ -106,6 +156,13 @@ section > .title {}
 .header-list-item {
 }
 .header-list-link {
+    color:var(--title-dark-color);
+    font-weight: 500;
+    transition: .3s;
+}
+.header-list-link:hover,
+.header-list-link:focus {
+    color: var(--text-active-color);
 }
 .header-adress {
 }
@@ -115,16 +172,22 @@ section > .title {}
 }
 .header-adress-list-link {
 }
+.header-adress-list-link:hover,
+.header-adress-list-link:focus {
+    color: var(--text-active-color);
+}
 
 
 /** Footer **/
 
 .footer {}
 
-.footer-logo {}
+.footer-logo {
+    color: var(--text-secondary-light-color);
+}
 
 .footer-text {
-    color: var(--text-light-color);
+    color: var(--text-secondary-light-color);
 }
 
 
@@ -134,7 +197,12 @@ section > .title {}
 
 .hero {}
 
-.hero-title {}
+.hero-title {
+    color:var(--text-light-color);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+}
 
 .advantages {}
 
